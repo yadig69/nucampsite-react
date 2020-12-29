@@ -1,0 +1,1 @@
+class CampsiteInfo extends Component {}
