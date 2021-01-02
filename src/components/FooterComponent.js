@@ -1,7 +1,5 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable no-unused-vars */
-import React from 'react';
-
+import React from "react";
+import { Link } from "react-router-dom";
 function Footer(props) {
   return (
     <footer className="site-footer">
@@ -11,16 +9,16 @@ function Footer(props) {
             <h5>Links</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#">Home</a>
+                <Link to="/home">Home</Link>
               </li>
               <li>
-                <a href="#">Directory</a>
+                <Link to="/directory">Directory</Link>
               </li>
               <li>
-                <a href="#">About</a>
+                <Link to="/aboutus">About</Link>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <Link to="/contactus">Contact</Link>
               </li>
             </ul>
           </div>
@@ -69,5 +67,4 @@ function Footer(props) {
     </footer>
   );
 }
-
 export default Footer;
