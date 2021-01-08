@@ -27,7 +27,7 @@ export const CAMPSITES = [
       "Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.",
   },
   {
-    id: 3,
+    id: 3, 
     name: "Redux Woods Campground",
     image: "/assets/images/redux-woods.jpg",
     elevation: 42,
